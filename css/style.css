@@ -1,0 +1,128 @@
+/* GLOBAL */
+* {
+    box-sizing: border-box;
+    font-size: 20px;
+}
+.clear{
+    clear: both;
+}
+/* header */
+.logo{
+    float: left;
+    height: 100px;
+}
+.slogan{
+    float: right;
+    margin-right: 100px;
+    height: 90px;
+}
+
+/* nav */
+.nav{
+    width: 100%;
+    background-color: rgba(243, 243, 243, 0.815);
+}
+.nav ul{
+    list-style: none;
+    padding: 15px 0;
+    border-top: 1px solid #c0b3c2;
+    border-bottom: 1px solid #c0b3c2;
+}
+.nav li{
+    display: inline;
+    margin: 0 10px;
+    float: none;
+}
+.nav a{
+    text-decoration: none;
+    font-size: 21px;
+    color: #616161;
+    font-weight: bold;
+}
+.nav a:hover{
+    text-decoration: underline red;
+}
+/* INTRO */
+.intro img{
+    width: 100%;
+}
+/* ABOUT */
+.about h1, .programs h1, .event h1{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 0;
+    margin-top: 50px;
+}
+.about img, .programs img, .event img{
+    display: block;
+    margin: 0 auto;
+}
+.about p{
+    text-align: center;
+    padding: 0 40px;
+}
+/* PROGRAM */
+.programs__item{
+    float: left;
+    width: 25%;
+    padding: 10px;
+}
+.programs__item img{
+    width: 100%;
+    display: block;
+}
+.programs__item h3,p{
+    text-align: center;
+}
+.programs__item h3{
+    color: red;
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-size: 18px;
+}
+.programs__item p{
+    margin-top: 5px;
+}
+/* NEWS-EVENT */
+
+.event-left{
+    float: left;
+    position: relative;
+    clear: right;
+    margin-right: 30px;
+}
+.event-left img{
+    height: 600px;
+}
+.text{
+    position: absolute;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.541);
+    text-align: center;
+    padding: 20px;
+    bottom: 5px;
+    left: 16px;
+    right: 16px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.event-item{
+    float: left;
+    width: 24%;
+    position: relative;
+    margin: 0 0 5px 10px;
+}
+.event-item img{
+    width: 100%;
+}
+.text-r{
+    position: absolute;
+    padding: 10px 0;
+    bottom: 0px;
+    text-align: left;
+    font-size: 20px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.616);
+    padding: 10px ;
+}
